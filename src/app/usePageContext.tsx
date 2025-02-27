@@ -12,7 +12,7 @@ const calculateBoxes = () => {
   return [];
 };
 
-const COLORS = ["#FF5733", "#FFA600", "#4CAF50", "#00A8E8", "#8B5CF6", "#FF66B2", "#A52A2A", "#FFD700"];
+const COLORS = ["#FF5733", "#FFA600", "#4CAF50", "#00A8E8", "#8B5CF6", "#FF66B2", "#A52A2A", "#FFD700" , "white"];
 
 const usePageContext = () => {
   const [contextMenu, setContextMenu] = useState<{ x: number; y: number } | null>(null);
