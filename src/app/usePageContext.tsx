@@ -2,11 +2,14 @@
 import React, { useEffect, useRef, useState } from "react";
 
 const calculateBoxes = () => {
-  const boxSize = window.innerWidth / 100;
-  const height = window.innerHeight;
-  const rows = Math.floor(height / boxSize);
-  const totalBoxes = 100 * rows;
-  return new Array(totalBoxes).fill(null).map(() => ({ color: "white", active: false }));
+  if (typeof window !== "undefined") {
+    const boxSize = window.innerWidth / 100;
+    const height = window.innerHeight;
+    const rows = Math.floor(height / boxSize);
+    const totalBoxes = 100 * rows;
+    return new Array(totalBoxes).fill(null).map(() => ({ color: "white", active: false }));
+  }
+  return [];
 };
 
 const COLORS = ["red", "blue", "green", "yellow", "purple", "black", "gray", "orange"];
