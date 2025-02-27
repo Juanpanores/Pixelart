@@ -1,4 +1,5 @@
-![image](https://github.com/user-attachments/assets/8daf8d7b-cd49-4af6-9f84-c1c1f5cb78e8)
+![image](https://github.com/user-attachments/assets/9a09eaa1-2849-45a8-a9cd-2cbe6597a70f)
+
 
 This page was made as a Test and showcases 100 boxes lengthwise and covers the whole page.
 
