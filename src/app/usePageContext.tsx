@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect, useRef, useState } from "react";
-import { deflate } from "zlib";
 
 const calculateBoxes = () => {
   const boxSize = window.innerWidth / 100;
